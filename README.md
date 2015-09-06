@@ -17,8 +17,8 @@ The font in which you want to replace the sidebearings.
 ### All Glyphs:
 Radio selection to copy all sidebearings from glyphs in the source UFO.
 
-### Selected Glyphs::
-
+### Selected Glyphs:
+Radio selection to copy sidebearings from only the selected glyphs in the source UFO.
 
 ### Results:
 Results should automatically be applied to your destination UFO. All changes are logged to the output window. The output also logs glyphs in your source UFO that are not in your destination UFO, as well as glyphs in your destination UFO that are not present in your source UFO.
