@@ -5,7 +5,7 @@ CopySidebearings is a micro [RoboFont](http://robofont.com) extension created in
 
 
 ## What does it do?
-CopySidebearings wholesale takes the sidebearings from your glyphs in one font, and copies them to their respective glyphs in another font.
+CopySidebearings takes the sidebearings from your glyphs in one font, and copies them to their respective glyphs in another font.
 
 
 ### Source UFO:
@@ -13,6 +13,12 @@ The font that has the sidebearings that you want to copy.
 
 ### Destination UFO:
 The font in which you want to replace the sidebearings.
+
+### All Glyphs:
+Radio selection to copy all sidebearings from glyphs in the source UFO.
+
+### Selected Glyphs::
+
 
 ### Results:
 Results should automatically be applied to your destination UFO. All changes are logged to the output window. The output also logs glyphs in your source UFO that are not in your destination UFO, as well as glyphs in your destination UFO that are not present in your source UFO.
