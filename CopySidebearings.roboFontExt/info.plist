@@ -26,9 +26,9 @@
 	<key>name</key>
 	<string>CopySidebearings</string>
 	<key>timeStamp</key>
-	<real>1439970698.15539</real>
+	<real>1441516510.3051779</real>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>1.1.0</string>
 	<key>com.robofontmechanic.Mechanic</key>
 	<dict>
 	  <key>repository</key>
