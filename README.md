@@ -1,7 +1,7 @@
 # CopySidebearings
 CopySidebearings is a micro [RoboFont](http://robofont.com) extension created in 2015 by [Alex Jacque](http://alexjacque.com).
 
-![CopySidebearings Interface](https://dl.dropboxusercontent.com/u/32129742/dont-delete/github/CopySidebearings/CopySidebearings_interface.png)
+![CopySidebearings Interface](http://alexjacque.com/images/github/CopySidebearings/CopySidebearings_interface.png)
 
 
 ## What does it do?
@@ -24,7 +24,7 @@ Radio selection to copy sidebearings from only the selected glyphs in the source
 Results should automatically be applied to your destination UFO. All changes are logged to the output window. The output also logs glyphs in your source UFO that are not in your destination UFO, as well as glyphs in your destination UFO that are not present in your source UFO.
 
 ## In a Nutshell
-![In a Nutshell](https://dl.dropboxusercontent.com/u/32129742/dont-delete/github/CopySidebearings/CopySidebearings_patrick.jpg)
+![In a Nutshell](http://alexjacque.com/images/github/CopySidebearings/CopySidebearings_patrick.jpg)
 
 
 ## The MIT License (MIT)
