@@ -26,7 +26,7 @@ import vanilla
 from defcon import Font
 from defconAppKit.windows.baseWindow import BaseWindowController
 from defconAppKit.controls.fontList import makeDefaultIDString
-from robofab.interface.all.dialogs import Message
+import mojo.UI
 
 class CopySidebearings(BaseWindowController):
 
@@ -95,7 +95,7 @@ class CopySidebearings(BaseWindowController):
 			glyphs = sourceFont.selection # a subset
 			if glyphs == []:
 				# "selected glyphs" is checked but nothing is selected
-				self.showMessage("Copy What?", "Please select at least one glyph in the source UFO from which to copy the sidebearings.")
+				self.mojo.UI.Message("Copy What?", "Please select at least one glyph in the source UFO from which to copy the sidebearings.")
 				return # bail
 		
 		
@@ -145,6 +145,6 @@ class CopySidebearings(BaseWindowController):
 if __name__ == "__main__":
 	count = len(AllFonts())
 	if count < 2:
-		Message("Requires two fonts to be open.")
+		mojo.UI.Message("Requires two fonts to be open.")
 	else:
 		CopySidebearings()
