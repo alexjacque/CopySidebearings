@@ -108,8 +108,8 @@ class CopySidebearings(BaseWindowController):
 				if sourceFont[glyph.name].contours == ():
 				    destinationFont[glyph.name].width = glyph.width
 				else:
-        			    destinationFont[glyph.name].leftMargin = glyph.leftMargin # set left margin
-        			    destinationFont[glyph.name].rightMargin = glyph.rightMargin # set right margin
+        			    destinationFont[glyph.name].angledLeftMargin = glyph.angledLeftMargin # set left margin
+        			    destinationFont[glyph.name].angledRightMargin = glyph.angledRightMargin # set right margin
 				destinationFont[glyph.name].performUndo()
 				sourceGlyphsCopied.append(glyph.name) # add glyph name to array of glyphs successfully copied
 			elif glyph.name not in destinationFont:
